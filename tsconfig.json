@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "rootDir": "./app",
+    "outDir": "dist",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "app/*": ["app/*"]
+    },
+    "resolveJsonModule": true,
+  },
+  "include": ["app/**/*.ts", "app/custom.d.ts"],
+  "exclude": ["node_modules"]
+}
