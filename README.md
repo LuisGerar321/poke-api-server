@@ -68,9 +68,7 @@ http://localhost:3001
 
 To streamline testing, import the following Postman collection file into your Postman app. This collection includes environment variables for managing the authentication token, host, and port. Additionally, it facilitates storing and using tokens for accessing endpoints that require permissions.
 
-```
-PokeApi.postman_collection.json
-```
+[Download Postman Collection](https://github.com/LuisGerar321/poke-api-server/blob/master/PokeApi.postman_collection.json)
 
 ### 6. Stopping the Containers
 
