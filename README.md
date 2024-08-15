@@ -34,9 +34,13 @@ SERVER_HOST = "localhost"
 
 
 #Database Configuration
-DB_NAME = "mydatabase"
+DB_NAME = "pokedb"
 DB_USER_NAME = "user"
 DB_PASS = "password"
+
+
+JWT_SECRET_KEY = "nodejsdev"
+JWT_EXPIRES_IN = "1h"
 
 ```
 
@@ -60,7 +64,15 @@ Once the containers are running, you can access the backend server at:
 http://localhost:3001
 ```
 
-### 5. Stopping the Containers
+### 5. Import Postman Collection to Test Endpoints
+
+To streamline testing, import the following Postman collection file into your Postman app. This collection includes environment variables for managing the authentication token, host, and port. Additionally, it facilitates storing and using tokens for accessing endpoints that require permissions.
+
+```
+PokeApi.postman_collection.json
+```
+
+### 6. Stopping the Containers
 
 To stop the running containers, use:
 
