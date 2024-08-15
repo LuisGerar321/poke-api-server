@@ -1,4 +1,4 @@
-# PokeApi Taking App Server
+# Pokedex App Server
 
 This project is a backend application built with Node.js, Express, and Sequelize. It includes Docker and Docker Compose for easy environment setup and management. The application connects to a MySQL database.
 
